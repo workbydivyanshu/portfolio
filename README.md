@@ -8,7 +8,7 @@ Welcome to my software development portfolio! This repository showcases my proje
 
 ### Project 1: MultifariousAI - Multi-Model AI Chat Platform
 
-**Repository:** [multifariousAI](https://github.com/shaolinOP/multifariousAI)
+**Repository:** [multifariousAI](https://github.com/lifeofdivyu/multifariousAI)
 
 #### 📋 Overview
 
@@ -108,7 +108,7 @@ MultifariousAI is a sophisticated, production-ready multi-model AI chat applicat
 
 ```bash
 # Clone the repository
-git clone https://github.com/shaolinOP/multifariousAI.git
+git clone https://github.com/lifeofdivyu/multifariousAI.git
 
 # Install dependencies
 npm install
@@ -139,7 +139,7 @@ I'm a full-stack developer passionate about building production-ready applicatio
 
 ## 📫 Contact
 
-- **GitHub**: [@shaolinOP](https://github.com/shaolinOP)
+- **GitHub**: [@lifeofdivyu](https://github.com/lifeofdivyu)
 - **Email**: *Add your email*
 - **LinkedIn**: *Add your LinkedIn*
 
