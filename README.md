@@ -24,7 +24,49 @@ A free, open-source streaming platform for movies and TV shows. Watch your favor
 
 ---
 
-### 2. Twenty Twenty Twenty — Eye Strain Relief App
+### 2. MultifariousAI — Multi-Model AI Chat Platform
+
+**Repository:** [workbydivyanshu/multifariousAI](https://github.com/workbydivyanshu/multifariousAI)
+
+**Live:** [multifarious-ai-j3zw.vercel.app](https://multifarious-ai-j3zw.vercel.app)
+
+A free and open-source multi-AI platform to chat with 100+ AI models including cloud APIs and local Ollama models, all in one place.
+
+**Key Features:**
+- 100+ free models via OpenRouter plus premium models (Claude, GPT-4o, Gemini)
+- Local AI support with Ollama for privacy-first, cost-free inference
+- Multi-model chat — compare up to 5 models side-by-side
+- Real-time streaming responses
+- Chat persistence with PostgreSQL
+- WCAG 2.1 accessible with full keyboard navigation
+- Dark mode, file upload, custom model support
+
+**Tech Stack:** Next.js, TypeScript, Tailwind CSS, Drizzle ORM, PostgreSQL, Zustand, Docker
+
+---
+
+### 3. Vartalap — Real-Time Messaging Platform
+
+**Repository:** [workbydivyanshu/vartalap-app](https://github.com/workbydivyanshu/vartalap-app)
+
+**Live:** [vartalap-app-vert.vercel.app](https://vartalap-app-vert.vercel.app)
+
+A modern, open-source instant messaging platform with Discord-like functionality — real-time messaging, servers, channels, and more.
+
+**Key Features:**
+- Real-time messaging via WebSocket (Socket.IO) with typing indicators
+- Message reactions with emoji picker (100+ emojis, 8 categories)
+- Reply threads, edit/delete messages, slash commands, message search
+- Server management with text channels, categories, and invite codes
+- File and image uploads with progress indicator
+- PWA support — installable on mobile and desktop
+- JWT authentication with rate limiting and security headers
+
+**Tech Stack:** React 18, TypeScript, Vite, Node.js, Express, Socket.IO, MongoDB, Docker
+
+---
+
+### 4. Twenty Twenty Twenty — Eye Strain Relief App
 
 **Repository:** [workbydivyanshu/twenty-twenty-twenty](https://github.com/workbydivyanshu/twenty-twenty-twenty)
 
@@ -46,7 +88,7 @@ A mobile app (Android + Web) implementing the 20-20-20 rule to reduce digital ey
 
 ---
 
-### 3. Cheatsheets — Coding Reference Companion
+### 5. Cheatsheets — Coding Reference Companion
 
 **Repository:** [workbydivyanshu/cheatsheets](https://github.com/workbydivyanshu/cheatsheets)
 
@@ -62,27 +104,6 @@ A comprehensive, clean, and beginner-friendly website featuring cheatsheets for 
 - Markdown-based content (easy to contribute new cheatsheets)
 
 **Tech Stack:** Next.js 15, TypeScript, Tailwind CSS, Shiki (syntax highlighting), Vercel
-
----
-
-### 4. MultifariousAI — Multi-Model AI Chat Platform
-
-**Repository:** [workbydivyanshu/multifariousAI](https://github.com/workbydivyanshu/multifariousAI)
-
-**Live:** [multifarious-ai-j3zw.vercel.app](https://multifarious-ai-j3zw.vercel.app)
-
-A free and open-source multi-AI platform to chat with 100+ AI models including cloud APIs and local Ollama models, all in one place.
-
-**Key Features:**
-- 100+ free models via OpenRouter plus premium models (Claude, GPT-4o, Gemini)
-- Local AI support with Ollama for privacy-first, cost-free inference
-- Multi-model chat — compare up to 5 models side-by-side
-- Real-time streaming responses
-- Chat persistence with PostgreSQL
-- WCAG 2.1 accessible with full keyboard navigation
-- Dark mode, file upload, custom model support
-
-**Tech Stack:** Next.js, TypeScript, Tailwind CSS, Drizzle ORM, PostgreSQL, Zustand, Docker
 
 ---
 
