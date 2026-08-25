@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Bricolage Grotesque", "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --font-body: "Instrument Sans", "Segoe UI", sans-serif;
+
+  --color-bg: #060507;
+  --color-bg-soft: #0b0a0e;
+  --color-surface: #100e14;
+  --color-surface-hover: #16131a;
+  --color-border: #232028;
+  --color-border-soft: #1a171e;
+  --color-ink: #f4f2f6;
+  --color-ink-dim: #a6a1ac;
+  --color-ink-dimmer: #6d6875;
+
+  --color-rose: #fb3d67;
+  --color-purple: #b34bf6;
+  --color-indigo: #6f6df6;
+  --color-cyan: #22d3ee;
+  --color-emerald: #22c58d;
+  --color-amber: #f5a524;
+
+  --animate-marquee: marquee 32s linear infinite;
+  --animate-blink: blink 1.1s steps(1) infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: var(--color-purple);
+  color: #fff;
+}
+
+/* thin, dark, unobtrusive scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 999px;
+  border: 2px solid var(--color-bg);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* signature spectrum gradient — mirrors the six project accent colors */
+.text-spectrum {
+  background: linear-gradient(
+    100deg,
+    var(--color-rose) 0%,
+    var(--color-purple) 28%,
+    var(--color-indigo) 45%,
+    var(--color-cyan) 65%,
+    var(--color-emerald) 82%,
+    var(--color-amber) 100%
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.grain {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+}
+
+.section-pad {
+  padding-left: clamp(1.5rem, 5vw, 6rem);
+  padding-right: clamp(1.5rem, 5vw, 6rem);
+}
+
+.focus-ring {
+  outline: none;
+}
+.focus-ring:focus-visible {
+  outline: 2px solid var(--color-cyan);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
