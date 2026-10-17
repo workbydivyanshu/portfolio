@@ -24,14 +24,13 @@ npm run preview  # preview the production build
 
 ## Projects featured on the site
 
-All six are real, shipped, and linked from [workbydivyanshu](https://github.com/workbydivyanshu):
+All five are real, shipped, and linked from [workbydivyanshu](https://github.com/workbydivyanshu):
 
-1. [aubade-web](https://github.com/workbydivyanshu/aubade-web) — local-library music player, File System Access API, Playwright CI
-2. [multifariousAI](https://github.com/workbydivyanshu/multifariousAI) — multi-model AI chat platform (Next.js/TypeScript)
-3. [vartalap-app](https://github.com/workbydivyanshu/vartalap-app) — real-time messaging app (React/Node/Socket.IO)
-4. [cheatsheets](https://github.com/workbydivyanshu/cheatsheets) — searchable dev reference site (Next.js 15/Shiki)
-5. [twenty-twenty-twenty](https://github.com/workbydivyanshu/twenty-twenty-twenty) — 20-20-20 eye-strain app (Kotlin/Compose + web)
-6. [p-stream](https://github.com/workbydivyanshu/p-stream) — feature contributions to a personal build of the streaming platform
+1. [multifariousAI](https://github.com/workbydivyanshu/multifariousAI) — multi-model AI chat platform (Next.js/TypeScript)
+2. [vartalap-app](https://github.com/workbydivyanshu/vartalap-app) — real-time messaging app (React/Node/Socket.IO)
+3. [cheatsheets](https://github.com/workbydivyanshu/cheatsheets) — searchable dev reference site (Next.js 15/Shiki)
+4. [twenty-twenty-twenty](https://github.com/workbydivyanshu/twenty-twenty-twenty) — 20-20-20 eye-strain app (Kotlin/Compose + web)
+5. [p-stream](https://github.com/workbydivyanshu/p-stream) — feature contributions to a personal build of the streaming platform
 
 ## Contact
 

@@ -20,20 +20,6 @@ export interface Project {
 export const projects: Project[] = [
   {
     index: "01",
-    slug: "aubade-web",
-    title: "Aubade",
-    tagline: "A music player that never leaves your machine",
-    description:
-      "A client-side player for a local music library, no framework and no build step. It reads a folder straight off disk through the File System Access API, builds out albums and artists, synced lyrics, playlists, a live visualiser, and per-cover colour theming. No server, no account, nothing uploaded — ever.",
-    stack: ["HTML", "CSS", "JavaScript", "File System Access API", "Playwright", "GitHub Actions"],
-    github: "https://github.com/workbydivyanshu/aubade-web",
-    live: "https://workbydivyanshu.github.io/aubade-web/",
-    accent: "#fb3d67",
-    accentSoft: "#fb3d6733",
-    featured: true,
-  },
-  {
-    index: "02",
     slug: "multifariousai",
     title: "MultifariousAI",
     tagline: "One inbox for every model",
@@ -46,7 +32,7 @@ export const projects: Project[] = [
     accentSoft: "#b34bf633",
   },
   {
-    index: "03",
+    index: "02",
     slug: "vartalap-app",
     title: "Vartalap",
     tagline: "Discord's UI, rebuilt from the socket up",
@@ -59,7 +45,7 @@ export const projects: Project[] = [
     accentSoft: "#6f6df633",
   },
   {
-    index: "04",
+    index: "03",
     slug: "cheatsheets",
     title: "Cheatsheets",
     tagline: "Every syntax you forget, in one place",
@@ -72,7 +58,7 @@ export const projects: Project[] = [
     accentSoft: "#22d3ee33",
   },
   {
-    index: "05",
+    index: "04",
     slug: "twenty-twenty-twenty",
     title: "Twenty Twenty Twenty",
     tagline: "A timer that actually gets you to look away",
@@ -85,7 +71,7 @@ export const projects: Project[] = [
     accentSoft: "#22c58d33",
   },
   {
-    index: "06",
+    index: "05",
     slug: "p-stream",
     title: "P-Stream",
     tagline: "Thirty commits into someone else's codebase",

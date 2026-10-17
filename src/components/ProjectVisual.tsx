@@ -1,7 +1,6 @@
 import type { Project } from "../data/projects";
 
 const SCREENSHOTS: Record<string, string> = {
-  "aubade-web": "aubade.png",
   multifariousai: "multifariousai.png",
   "vartalap-app": "vartalap.png",
   cheatsheets: "cheatsheets.png",
